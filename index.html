@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodeCraft AI | Java & Next.js ile İşletmeniz İçin Yapay Zeka Çözümleri</title>
+    <title>CodeCraft AI | Enterprise AI Solutions with Java & Next.js</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <style>
-        /* --- Temel Stiller (Modern & Temiz) --- */
         :root {
-            --primary: #2563eb; /* Modern Mavi */
-            --secondary: #1e293b; /* Koyu Lacivert */
+            --primary: #2563eb; 
+            --secondary: #1e293b; 
             --bg-light: #f8fafc;
             --text-dark: #0f172a;
             --text-light: #64748b;
@@ -37,7 +36,6 @@
         a { text-decoration: none; color: inherit; transition: 0.3s; }
         ul { list-style: none; }
 
-        /* --- Global Bileşenler --- */
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -67,7 +65,6 @@
 
         .section-title span { color: var(--primary); }
 
-        /* --- Header / Nav --- */
         header {
             background-color: var(--white);
             padding: 20px 0;
@@ -90,13 +87,12 @@
         .nav-links { display: flex; gap: 30px; }
         .nav-links a:hover { color: var(--primary); }
 
-        /* --- Hero Section --- */
         #hero {
             height: 100vh;
             display: flex;
             align-items: center;
             background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
-            padding-top: 80px; /* Header space */
+            padding-top: 80px;
             text-align: center;
         }
 
@@ -111,7 +107,7 @@
             font-size: 1.25rem;
             color: var(--text-light);
             margin-bottom: 40px;
-            max-width: 800px;
+            max-width: 900px;
             margin-left: auto;
             margin-right: auto;
         }
@@ -127,7 +123,6 @@
 
         .tech-stack-icons i:hover { color: var(--primary); transform: scale(1.1); }
 
-        /* --- Services Section --- */
         #services { padding: 100px 0; background-color: var(--white); }
 
         .services-grid {
@@ -154,11 +149,9 @@
         .service-card h3 { margin-bottom: 15px; color: var(--secondary); }
         .service-card p { color: var(--text-light); font-size: 0.95rem; }
 
-        /* --- Contact Section (COMING SOON) --- */
         #contact { padding: 100px 0; text-align: center; }
         #contact p { font-size: 1.2rem; color: var(--text-light); margin-bottom: 30px; }
 
-        /* --- Footer --- */
         footer {
             background-color: var(--secondary);
             color: var(--white);
@@ -173,10 +166,9 @@
         .social-links a { font-size: 1.5rem; opacity: 0.7; }
         .social-links a:hover { opacity: 1; }
 
-        /* --- Responsive --- */
         @media (max-width: 768px) {
             #hero h1 { font-size: 2.5rem; }
-            .nav-links { display: none; } /* Basitlik için mobilde menüyü gizle */
+            .nav-links { display: none; }
         }
     </style>
 </head>
@@ -187,20 +179,20 @@
             <nav>
                 <a href="#" class="logo">CodeCraft<span>AI</span></a>
                 <ul class="nav-links">
-                    <li><a href="#hero">Ana Sayfa</a></li>
-                    <li><a href="#services">Çözümlerimiz</a></li>
-                    <li><a href="#contact">İletişim</a></li>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#services">Solutions</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
-                <a href="#contact" class="btn">Teklif Al</a>
+                <a href="#contact" class="btn">Get a Quote</a>
             </nav>
         </div>
     </header>
 
     <section id="hero">
         <div class="container">
-            <h1>Kurumsal Güç, Yapay Zeka Zekasıyla Buluşuyor</h1>
-            <p>Java Spring Boot'un sağlam backendi, Next.js'in hızı ve modern Yapay Zeka entegrasyonları ile işletmeniz için ölçeklenebilir, akıllı iş çözümleri üretiyoruz.</p>
-            <a href="#services" class="btn">Çözümlerimizi Keşfedin</a>
+            <h1>Enterprise Power Meets AI Intelligence</h1>
+            <p>We build scalable, intelligent business solutions leveraging the robust backend of Java Spring Boot, the speed of Next.js, and cutting-edge AI integrations.</p>
+            <a href="#services" class="btn">Explore Solutions</a>
             
             <div class="tech-stack-icons">
                 <i class="fab fa-java" title="Java"></i>
@@ -213,25 +205,25 @@
 
     <section id="services">
         <div class="container">
-            <h2 class="section-title">Neler <span>Yapıyoruz?</span></h2>
+            <h2 class="section-title">Our <span>Solutions</span></h2>
             
             <div class="services-grid">
                 <div class="service-card">
                     <i class="fas fa-brain"></i>
-                    <h3>AI Destekli Otomasyon</h3>
-                    <p>İş süreçlerinizi analiz eden, tahmin yürüten ve tekrarlayan görevleri otomatize eden akıllı Java sistemleri.</p>
+                    <h3>AI-Driven Automation</h3>
+                    <p>Intelligent Java systems that analyze business processes, predict outcomes, and automate repetitive tasks.</p>
                 </div>
                 
                 <div class="service-card">
                     <i class="fas fa-layer-group"></i>
-                    <h3>Ölçeklenebilir Mikroservisler</h3>
-                    <p>Spring Boot ile güvenli, yüksek performanslı ve bulut uyumlu (Docker) backend mimarileri.</p>
+                    <h3>Scalable Microservices</h3>
+                    <p>Secure, high-performance, and cloud-ready backend architectures built with Spring Boot and Docker.</p>
                 </div>
                 
                 <div class="service-card">
                     <i class="fab fa-js-square"></i>
-                    <h3>Modern Web Deneyimi</h3>
-                    <p>Next.js ile SEO uyumlu, kullanıcı dostu, SEO odaklı ve çok hızlı ön yüz (frontend) tasarımları.</p>
+                    <h3>Modern Web Experiences</h3>
+                    <p>Ultra-fast, SEO-friendly frontends crafted with Next.js for a seamless user experience.</p>
                 </div>
             </div>
         </div>
@@ -239,10 +231,10 @@
 
     <section id="contact">
         <div class="container">
-            <h2 class="section-title">Bizimle <span>Çalışın</span></h2>
-            <p>Projeniz için hazırız. Hemen iletişime geçin, size en uygun akıllı çözümü planlayalım.</p>
-            <p><strong>Yakında Sizlerle:</strong> Detaylı iletişim formumuz ve referanslarımız bu alanda olacak.</p>
-            <a href="mailto:iletisim@codecraft.ai" class="btn">E-posta Gönder</a>
+            <h2 class="section-title">Work <span>With Us</span></h2>
+            <p>Ready to elevate your project? Contact us today to plan your tailored smart business solution.</p>
+            <p><strong>Coming Soon:</strong> Our detailed portfolio and case studies will be available here.</p>
+            <a href="mailto:contact@codecraft.ai" class="btn">Send an Email</a>
         </div>
     </section>
 
@@ -254,7 +246,7 @@
                 <a href="#"><i class="fab fa-linkedin"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
             </div>
-            <p>&copy; 2023 CodeCraft AI. Tüm Hakları Saklıdır.</p>
+            <p>&copy; 2026 CodeCraft AI. All Rights Reserved.</p>
         </div>
     </footer>
 
